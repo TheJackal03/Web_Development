@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Bagel+Fat+One&family=Kablammo&display=swap');
+
+
+html {
+    background-image: linear-gradient(90deg, #53cbef 0%, #dcc66c 50%, #ffa3b6 75%, #53cbef 100%);
+    animation: slidernbw 5s linear infinite;
+    color: #000;
+}
+@keyframes slidernbw {
+    to {
+    background-position: 20vw;
+    }
+} 
+
+
+* {
+    font-family: 'Bagel Fat One', cursive;
+}
+
+
+h1 {
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+
+.game {
+    font-size: 50px;
+    background-image: linear-gradient(45deg, #ff6b6b, #ffa34d, #ffcc5c, #8cff66, #3d7eff);
+    border: double black 3px;
+    border-radius: 20px;
+    letter-spacing: 3px;
+    /* Other existing styles for h1 */
+}
+
+
+body {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    margin-top: 75%;
+    height: 250px;
+    width: 180px;
+    padding: 15px 30px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    border-radius: 20px;
+    background-image: url(img/mole_top.png); /* Initial image at the top */
+    background-size: 50%;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-position-y: top;
+    animation: slideBackground 2s linear infinite; /* Animation for alternating background */
+    color: white;
+    background-color: rgb(70, 37, 218);
+}
+  
+  @keyframes slideBackground {
+    0%, 50% {
+      background-image: url(img/mole_top.png); /* Image at the top */
+      background-position-y: top;
+    }
+    50.1%, 100% {
+      background-image: url(img/mole_bottom.png); /* Image at the bottom */
+      background-position-y: bottom;
+    }
+  }
+  
+  button:hover {
+    padding: 15px 30px;
+    font-size: 23px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    border: none;
+    animation-play-state: paused; /* Pause the animation */
+    background-image: none !important;
+    /* color: rgb(0, 0, 0);
+    background-color: rgb(249, 34, 134); */
+    color: white;
+    background-color: rgb(70, 37, 218);
+
+}
+
+
+.right-side{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    margin-left: -90px;
+    margin-top: 75px;
+}
+
+.side-bar{
+    width: 244px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 143px;
+}
+
+.scoreDisplay {
+    margin-top: 150px;
+    margin-bottom: 170px;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.timeDisplay {
+    width: 244px;
+    display: flex;
+    flex-direction: row;
+    font-size: large;
+}
+
+.grid {
+    text-align: center;
+    width: 690px;
+    height: 620px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: 100px;
+    margin-left: auto;
+}
+
+.square {
+    background-color: white;
+    width: 200px;
+    height: 200px;
+    border: groove black 4px;
+    border-radius: 20px;
+}
+
+.mole {
+    background-image: url(img/mole_toHit.png); /* Initial image at the top */
+    background-size: 140px 140px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
