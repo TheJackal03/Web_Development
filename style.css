@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Bacasime+Antique&family=Pacifico&display=swap');
+
+body {
+    background-position: center;
+    background-image: url(img/body_background2.jpeg);
+    background-size: 1500px 843px;
+    background-repeat: no-repeat;
+}
+
+.gameplay {
+    background-image: url(img/pngfind.com-blackjack-png-6305509.png);
+    background-repeat: no-repeat;
+    background-position: center 75px;
+    background-size: 800px 500px;
+    text-align: center;
+    min-height: 95vh;
+    
+}
+
+h1 {
+    font-family: 'Bacasime Antique', serif;
+    font-style: oblique;
+    font-size: 50px;
+    border: solid black 3px;
+    border-radius: 22px;
+    margin-top: -5px;
+    background-image: url(img/backImage.webp);
+    background-size: 16%;
+    height: 62px;
+    position: relative;
+}
+
+#text {
+    position: absolute;
+    color: #016f32;
+    border: groove purple 3px;
+    opacity: 2;
+    background-color: goldenrod;
+    /* background-image: url(img/stripes.jpeg);
+    background-size: 100%; */
+    padding: 5px 10px;
+    top: -2px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.playthrough {
+    font-size: larger;
+    margin-top: -48px;
+}
+
+button {
+    margin-left: 5px;
+    margin-top: 10px;
+    font-family: 'Bacasime Antique', serif;
+    font-weight: 900;
+    font-size: 25px;
+    color: #016f32;
+    width: 150px;
+    background-color: goldenrod;
+    z-index: -1;
+    height: 35px;
+}
+
+button:hover {
+    background-color: #016f32;
+    color: goldenrod;
+}
+
+#newGame {
+    width: 155px;
+    height: 55px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+#cards, #sum {
+    margin-bottom: 40px;
+    border: solid black 3px;
+    border-radius: 22px;
+    padding: 5px 25px;
+    color: goldenrod;
+}
+
+#cards {
+    margin-right: 7px;
+}
+
+#sum {
+    margin-left: 55px;
+}
+
+#message {
+    color: goldenrod;
+    font-family: 'Pacifico', cursive;
+    font-size: 25px;
+    margin-top: 62px;
+}
+
+#result {
+    margin-top: 230px;
+    color: goldenrod;
+    font-weight: 900;
+    font-size: xx-large;
+}
+
+#roundMessage {
+    background-color: rgb(124, 49, 119);
+    padding: 7px 7px;
+    border: outset gray 6px;
+    border-radius: 23px;
+}
+
