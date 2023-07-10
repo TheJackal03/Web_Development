@@ -1,0 +1,79 @@
+
+html {
+    background-image: url(img/background.avif);
+    background-size: 15%;
+}
+
+body {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+span {
+    border: outset rgb(11, 220, 136) 4px;
+    border-radius: 10px;
+    padding: 8px 8px;
+    background-image: url(img/stripes.jpeg);
+    background-size: 900%;
+    color: rgb(183, 0, 255);
+    font-weight: bold;
+}
+
+button {
+    height: 40px;
+    width: 244px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    font-size: 20px;
+    border: outset black 4px;
+}
+.adding:hover {
+    background-image: url(img/backAdd.png);
+    background-size:14%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.subtracting:hover {
+    background-image: url(img/subBack.png);
+    background-size: 14%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.multiplying:hover {
+    background-image: url(img/close.png);
+    background-size: 14%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+.dividing:hover {
+    background-image: url(img/divideBack.jpeg);
+    background-size: 16%;
+    color: rgb(0, 0, 0);
+    font-weight: 900;
+}
+
+#clear {
+    margin-bottom: 14px;
+}
+
+#clear:hover {
+    font-style: italic;
+    font-weight: bolder;
+}
+
+.result {
+    font-style: initial;
+    font-weight: 900;
+    font-size: 23px;
+    margin-top: -1px;
+}
+
+input {
+    height: 30px;
+    width: 122px;
+    font-size: 17px;
+}
