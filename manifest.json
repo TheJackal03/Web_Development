@@ -1,0 +1,14 @@
+{
+    "manifest_version": 2,
+    "version": "1.0",
+    "name": "Page Pouch",
+    "permissions": [
+      "tabs",
+      "storage"
+    ],
+    "browser_action": {
+      "default_popup": "index.html",
+      "default_icon": "img/pouch.png"
+    }
+  }
+  
