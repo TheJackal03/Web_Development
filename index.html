@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Blackjack</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="img/poker-cards.png" type="image/x-icon">
+    </head>
+
+    <body>
+        <article class="gameplay">
+            <h1> <span id="text">Blackjack</span></h1>
+            <section class="playthrough">
+                <div id="message">Want to play a round?</div>
+                <p class="game">
+                    <span id="cards">Cards: </span> 
+                    <span id="sum">Sum: </span>
+                </p>
+            </section>
+            <button onclick="addCard()">GET CARD</button>
+            <button onclick="check()">STOP</button>
+            <button onclick="newGame()" id="newGame">NEW ROUND</button>
+
+            <p id="result"> <span id="roundMessage"></span></p>
+        </article>
+        <script src="app.js"></script>
+    </body>
+</html>
