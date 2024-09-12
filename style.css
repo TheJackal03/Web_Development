@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&display=swap');
+
+
+body {
+    margin: 0;
+    padding: 10px;
+    background: linear-gradient(to right, #ffb3ba, #ffdfba, #ffffba, #baffc9, #bae1ff, #dcaeff);
+    min-width: 400px;
+}
+
+h1 {
+    text-align: center;
+}
+
+#heading {
+    border: outset black 3px;
+    padding: 7px;
+    border-radius: 20px;
+    background: linear-gradient(to right, #ffd700, #ffd900, #ffdc00, #ffdf00, #ffe200);
+}
+
+input {
+    font-family: 'Caprasimo', cursive;
+    padding: 10px;
+    width: 100%;
+    box-sizing: border-box; /* makes sure teh input goes on 100% of the page including also the paddings before previously the width would be 100% + 7px which is the padding, that's why it would go out of the web browswer space*/
+    border-radius: 20px;
+    border: solid green 3px;
+}
+
+button {
+    padding: 8px;
+    margin-top: 8px;
+    font-family: 'Caprasimo', cursive;
+    color: white;
+    background-color: green;
+}
+
+button:hover {
+    color: green;
+    background-color: white;
+}
+
+#showcasing {
+    font-weight: 900;
+    padding: 7px;
+}
+
+ul {
+    margin-left: 50px;
+}
+
+li {
+    padding: 7px;
+}
